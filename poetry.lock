@@ -254,16 +254,16 @@ six = ">=1.12.0"
 
 [[package]]
 name = "azure-mgmt-compute"
-version = "27.2.0"
+version = "28.0.0"
 description = "Microsoft Azure Compute Management Client Library for Python"
 category = "main"
 optional = false
-python-versions = ">=3.6"
+python-versions = ">=3.7"
 
 [package.dependencies]
 azure-common = ">=1.1,<2.0"
-azure-mgmt-core = ">=1.3.1,<2.0.0"
-msrest = ">=0.6.21"
+azure-mgmt-core = ">=1.3.2,<2.0.0"
+msrest = ">=0.7.1"
 
 [[package]]
 name = "azure-mgmt-core"
@@ -2598,7 +2598,7 @@ multidict = ">=4.0"
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.9"
-content-hash = "93fb3f63b7900e86366bfca17551f80dcec70d924ec6740a3891ea0a000c0ee6"
+content-hash = "4bb636e404d96faa9a4b4c7b412061f9b35cc969e44534ff45db39b89e577f09"
 
 [metadata.files]
 adal = [
@@ -2701,8 +2701,8 @@ azure-identity = [
     {file = "azure_identity-1.10.0-py3-none-any.whl", hash = "sha256:b386f1ccbea6a48b9ab7e7f162adc456793c345193a7c1a713959562b08dcbbd"},
 ]
 azure-mgmt-compute = [
-    {file = "azure-mgmt-compute-27.2.0.zip", hash = "sha256:e5c69553166fb7eecbff52c37dc0ff4a2530bc5545d4a5dd4ba983215ad2289d"},
-    {file = "azure_mgmt_compute-27.2.0-py3-none-any.whl", hash = "sha256:c14f87ae99a51a70babe7450cd47890ea4669e77938509fff7f3e5fb3ba245b1"},
+    {file = "azure-mgmt-compute-28.0.0.zip", hash = "sha256:3cd2f37f82adb913bb82021825495d22bf713c238c7c7780560ca43ab3a9b5ce"},
+    {file = "azure_mgmt_compute-28.0.0-py3-none-any.whl", hash = "sha256:090f592573e57b203c3dba8c31ffbd015f34f4b9c594372439f274020695b6ae"},
 ]
 azure-mgmt-core = [
     {file = "azure-mgmt-core-1.3.2.zip", hash = "sha256:07f4afe823a55d704b048d61edfdc1318c051ed59f244032126350be95e9d501"},
