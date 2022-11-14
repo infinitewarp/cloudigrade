@@ -25,18 +25,18 @@ vine = ">=5.0.0"
 
 [[package]]
 name = "ansible"
-version = "6.5.0"
+version = "6.6.0"
 description = "Radically simple IT automation"
 category = "main"
 optional = false
 python-versions = ">=3.8"
 
 [package.dependencies]
-ansible-core = ">=2.13.5,<2.14.0"
+ansible-core = ">=2.13.6,<2.14.0"
 
 [[package]]
 name = "ansible-core"
-version = "2.13.5"
+version = "2.13.6"
 description = "Radically simple IT automation"
 category = "main"
 optional = false
@@ -2772,7 +2772,7 @@ testing = ["flake8 (<5)", "func-timeout", "jaraco.functools", "jaraco.itertools"
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.9"
-content-hash = "339a07d42a196c620495430fd625823c2705de40e60e1e42a9f782d6635c42b4"
+content-hash = "9556745c6568922c9da1f5bf6d9c1797daf0086a8bd6ed8ba44d26051e12a8c6"
 
 [metadata.files]
 adal = [
@@ -2784,12 +2784,12 @@ amqp = [
     {file = "amqp-5.1.1.tar.gz", hash = "sha256:2c1b13fecc0893e946c65cbd5f36427861cffa4ea2201d8f6fca22e2a373b5e2"},
 ]
 ansible = [
-    {file = "ansible-6.5.0-py3-none-any.whl", hash = "sha256:2cc8c9faf9351dc46d92281eb28f21be3d2faa212b20bfc05afa98946cb788de"},
-    {file = "ansible-6.5.0.tar.gz", hash = "sha256:7c0cdcd1121a5f12ab2da4bdd2e14c2c153e01214bfc6a6bc156b61bd7401c5b"},
+    {file = "ansible-6.6.0-py3-none-any.whl", hash = "sha256:3c6812e9af1c243b8a9e5fc6cba618449813765e609caae39a757452e2818dee"},
+    {file = "ansible-6.6.0.tar.gz", hash = "sha256:e1b940a8d4f412123ede3c14b25cb99c3c8a4d535fd040aabf8e4fb7b0e4f092"},
 ]
 ansible-core = [
-    {file = "ansible-core-2.13.5.tar.gz", hash = "sha256:26dcd9218d5544cc15144f60bb5b634f2276e476c89f481b3f619c4f9def1588"},
-    {file = "ansible_core-2.13.5-py3-none-any.whl", hash = "sha256:3d2503ede324e0e73051b14e77f732a3cb0aed2437f94608af53929d2d1d54c8"},
+    {file = "ansible-core-2.13.6.tar.gz", hash = "sha256:31fe322b63290674a8f7386110df501f0044aa44890be3ab313a6e225b9a29cf"},
+    {file = "ansible_core-2.13.6-py3-none-any.whl", hash = "sha256:e31fd550a5ea9423f1fc1391de6b41bb0d264a83bbfc9c7edfef0f78b7624fd3"},
 ]
 anyio = [
     {file = "anyio-3.6.2-py3-none-any.whl", hash = "sha256:fbbe32bd270d2a2ef3ed1c5d45041250284e31fc0a4df4a5a6071842051a51e3"},
