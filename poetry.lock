@@ -1150,14 +1150,14 @@ djangorestframework = "*"
 
 [[package]]
 name = "faker"
-version = "16.8.1"
+version = "16.9.0"
 description = "Faker is a Python package that generates fake data for you."
 category = "main"
 optional = false
 python-versions = ">=3.7"
 files = [
-    {file = "Faker-16.8.1-py3-none-any.whl", hash = "sha256:64dcf95eee9f00d2547f29f6762aec80fc3ccbe3752bfa2c45082a6e2cc4d74a"},
-    {file = "Faker-16.8.1.tar.gz", hash = "sha256:ad181f6f9cdc0f7d70ea6eaea35ab4b6549391fbaaea7629cc567aeb2757d296"},
+    {file = "Faker-16.9.0-py3-none-any.whl", hash = "sha256:1f76bd19a642e4af88e8139c6bf764294cfee0172e652d660777e4c570b0699b"},
+    {file = "Faker-16.9.0.tar.gz", hash = "sha256:b5dce93b50cd83278b4e6a47b80f0f1ab340f726e27a2b45ba93b814f0612752"},
 ]
 
 [package.dependencies]
@@ -2991,4 +2991,4 @@ multidict = ">=4.0"
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.9"
-content-hash = "d903a8b90f390445b0e81cd04b9c6b7f48863071f04f713177deb9fcc4e0f021"
+content-hash = "757f425863b10fc6fc2cd8c17fe789f6c91a54669650a5734acce8c6471d9fc2"
